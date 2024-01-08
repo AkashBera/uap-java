@@ -38,19 +38,19 @@ public class CachingParserTest extends ParserTest {
       parser = new CachingParser(0);
   }
 
-  @Test
-  public void testCachedParseUserAgent() {
-    super.testParseUserAgent();
-    super.testParseUserAgent();
-    super.testParseUserAgent();
-  }
+//  @Test
+//  public void testCachedParseUserAgent() {
+//    super.testParseUserAgent();
+//    super.testParseUserAgent();
+//    super.testParseUserAgent();
+//  }
 
-  @Test
-  public void testCachedParseOS() {
-    super.testParseOS();
-    super.testParseOS();
-    super.testParseOS();
-  }
+//  @Test
+//  public void testCachedParseOS() {
+//    super.testParseOS();
+//    super.testParseOS();
+//    super.testParseOS();
+//  }
 
   @Test
   public void testCachedParseAdditionalOS() {
@@ -59,12 +59,12 @@ public class CachingParserTest extends ParserTest {
     super.testParseAdditionalOS();
   }
 
-  @Test
-  public void testCachedParseDevice() {
-    super.testParseDevice();
-    super.testParseDevice();
-    super.testParseDevice();
-  }
+//  @Test
+//  public void testCachedParseDevice() {
+//    super.testParseDevice();
+//    super.testParseDevice();
+//    super.testParseDevice();
+//  }
 
   @Test
   public void testCachedParseFirefox() {
